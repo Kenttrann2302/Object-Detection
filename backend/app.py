@@ -27,7 +27,7 @@ from helper_functions.middleware_function import validate_token
 from helper_functions.run_all_cameras import run_all_cameras
 from helper_functions.insert_users import mongo_db, users_collection # mongodb connection
 from imageCalibrationClass import Recalibration, createPipeline
-from getenv import mysql_username, mysql_password, mysql_host, mysql_port, mysql_db_name
+from getenv import psql_db_name, psql_host, psql_password, psql_username, psql_port
 
 # read in the params.json file
 with open(r'params.json') as f:
@@ -39,11 +39,10 @@ api = Api(app)
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///instances/martinrea.db'
 # database configuration
-app.config['SQLALCHEMY_DATABASE_URI'] = f'mysql://{mysql_username}:{mysql_password}@{mysql_host}:{mysql_port}/{mysql_db_name}'
+app.config['SQLALCHEMY_DATABASE_URI'] = f'postgres://{psql_username}:{psql_password}@{psql_host}:{psql_port}/{psql_db_name}'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
 # engine = create_engine('sqlite:///instances/martinrea.db')
-engine = create_engine(f'mysql://{mysql_username}:{mysql_password}@{mysql_host}:{mysql_port}/{mysql_db_name}')
-app.config['SERVER_NAME'] = '127.0.0.1:5000'
+engine = create_engine(f'postgres://{psql_username}:{psql_password}@{psql_host}:{psql_port}/{psql_db_name}')
 app.config['APPLICATION_ROOT'] = '/'
 app.config['PREFERRED_URL_SCHEME'] = 'http'
 app.config['CORS_HEADERS'] = 'Content-Type'
