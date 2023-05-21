@@ -1,7 +1,3 @@
-import cv2 as cv
-import numpy as np
-import matplotlib.pyplot as plt
-
 # declare arrays to store the errors for top, left, bottom, right
 def getPassRef(error, final):
     for i in range(len(error)):

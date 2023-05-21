@@ -10,8 +10,8 @@ mongodb_username = os.getenv('MONGO_DB_USERNAME')
 mongodb_password = os.getenv('MONGO_DB_PASSWORD')
 
 # getting mysql connection credentials
-mysql_username = os.getenv('MYSQL_DB_USERNAME')
-mysql_password = os.getenv('MYSQL_DB_PASSWORD')
-mysql_host = os.getenv('MYSQL_DB_HOST')
-mysql_port = os.getenv('MYSQL_DB_PORT')
-mysql_db_name = os.getenv('MYSQL_DB_NAME')
+psql_username = os.getenv('DB_USERN')
+psql_password = os.getenv('DB_PASS')
+psql_host = os.getenv('DB_HOST')
+psql_port = os.getenv('DB_PORT')
+psql_db_name = os.getenv('DB_NAME')

@@ -5,13 +5,8 @@ import cv2 as cv
 import time
 from imageMaskGeneration import createMask
 from imageProcessingClasses import imageProcessing
-from imagePredictionClass import MSEStabilization, getPassRef
-import pdb
-import os
-import keyboard
-import websocket
+from imagePredictionClass import getPassRef
 import requests
-import pdb
 
 # this function is responsible for creating the pipeline that is connected the machine to the camera
 def createPipeline():
