@@ -49,38 +49,70 @@ Here are a few demo images of what we have so far:
 
 - Our login page:
 
+
+
 <img width="856" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/c4c9620a-5d67-4524-8588-eac500fba539">
 
+
+
 - Our homepage:
+
+
 
 <img width="903" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/d95a7f73-83b1-456c-b935-71671b1ccecb">
 
 - Our demo dashboard for station 100:
 
+
+
 <img width="876" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/3405572a-81c7-4301-8fe8-c74d5c028513">
+
+
 
 <img width="860" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/c17979c0-72d0-407f-ae5f-283df1435cc5">
 
+
+
 <img width="860" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/434007d3-180e-4e49-9520-c02028863fa4">
+
+
 
 <img width="864" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/4ddb623e-360e-4161-b9e6-4dfc3ab8b6c1">
 
+
+
 - Setting configurations for our cameras as well as mask set up, redo the mask for a certain part and our algorithm setup:
+
+
 
 <img width="858" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/3c566157-2d0f-4bac-91d7-ef0964202414">
 
+
+
 <img width="858" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/9af44787-d1c1-454f-85d0-e3c7b1d26c6e">
 
+
+
 <img width="858" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/15cdb31a-01bd-4dfd-8ad8-0fb5e60e5343">
+
+
 
 <img width="852" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/454783f3-d79c-401c-94b3-91b327026d9d">
 
 
+
+
 ![Some output demo]()
+
+
 
 <img width="854" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/c4fbea85-7a7f-4042-9078-0d5046189f94">
 
+
+
 <img width="854" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/9816c02f-b9a3-4982-a307-cc02d1486723">
+
+
   
   
 ## Requirements for development and contribution:
