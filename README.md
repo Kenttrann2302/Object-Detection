@@ -39,7 +39,8 @@
 Here are a few demo images of what we have so far:
 ![Our mask demo](https://github.com/Kenttrann2302/Object-Detection/blob/main/backend/Photos/Masks/station100/top.jpg?raw=true)
 ![Our output demo]()
-![Our website demo]
+<img width="744" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/c388fa0e-545a-46e0-8109-412fc170b24a">
+![Our website demo]()
 - Our login page:
 <img width="856" alt="image" src="https://github.com/Kenttrann2302/Object-Detection/assets/110959350/c4c9620a-5d67-4524-8588-eac500fba539">
   
